@@ -50,7 +50,7 @@ console.log(x = y - x++ * z); // -10
 
 
 // создают самостоятельную функцию гератор разметки HTML
-const createElement = ({
+ export const createElement = ({
   type, // поле для записи тега
   attrs, // поле для записи атрибута
   container = null, // поле для обертки
